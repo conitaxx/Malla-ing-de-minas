@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular Interactiva - Ingeniería de Minas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Malla Curricular de Ingeniería de Minas</h1>
+        <p>Haz clic en las asignaturas para marcarlas como completadas. Esto habilitará las asignaturas posteriores.</p>
+
+        <div id="mesh-container">
+            <div class="level" id="level-1">
+                <h2>1er Nivel</h2>
+                <div class="level-content">
+                    <div class="subject" id="23011" data-code="23011" data-name="Cálculo I" data-requirements="" data-level="1">
+                        <h3>Cálculo I</h3>
+                        <p>CT: 10</p>
+                    </div>
+                    <div class="subject" id="23012" data-code="23012" data-name="Álgebra I" data-requirements="" data-level="1">
+                        <h3>Álgebra I</h3>
+                        <p>CT: 9</p>
+                    </div>
+                    <div class="subject" id="24013" data-code="24013" data-name="Química" data-requirements="" data-level="1">
+                        <h3>Química</h3>
+                        <p>CT: 8</p>
+                    </div>
+                    <div class="subject" id="04014" data-code="04014" data-name="Introducción a la Ingeniería de Minas" data-requirements="" data-level="1">
+                        <h3>Introducción a la Ingeniería de Minas</h3>
+                        <p>CT: 3</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="level" id="level-2">
+                <h2>2do Nivel</h2>
+                <div class="level-content">
+                    <div class="subject" id="23021" data-code="23021" data-name="Cálculo II" data-requirements="23011" data-level="2">
+                        <h3>Cálculo II</h3>
+                        <p>CT: 7</p>
+                    </div>
+                    <div class="subject" id="23022" data-code="23022" data-name="Álgebra II" data-requirements="23012" data-level="2">
+                        <h3>Álgebra II</h3>
+                        <p>CT: 7</p>
+                    </div>
+                    <div class="subject" id="22023" data-code="22023" data-name="Física I" data-requirements="23011" data-level="2">
+                        <h3>Física I</h3>
+                        <p>CT: 8</p>
+                    </div>
+                    <div class="subject" id="03024" data-code="03024" data-name="Dibujo de Ingeniería" data-requirements="04014" data-level="2">
+                        <h3>Dibujo de Ingeniería</h3>
+                        <p>CT: 4</p>
+                    </div>
+                     <div class="subject" id="40025" data-code="40025" data-name="Inglés I" data-requirements="LEVEL1" data-level="2">
+                        <h3>Inglés I</h3>
+                        <p>CT: 4</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="level" id="level-3">
+                <h2>3er Nivel</h2>
+                <div class="level-content">
+                    <div class="subject" id="03031" data-code="03031" data-name="Programación y Computación" data-requirements="LEVEL1" data-level="3">
+                        <h3>Programación y Computación</h3>
+                        <p>CT: 6</p>
+                    </div>
+                    <div class="subject" id="03032" data-code="03032" data-name="Dibujo Profesional" data-requirements="03024" data-level="3">
+                        <h3>Dibujo Profesional</h3>
+                        <p>CT: 5</p>
+                    </div>
+                    <div class="subject" id="22033" data-code="22033" data-name="Física II" data-requirements="22023,23021" data-level="3">
+                        <h3>Física II</h3>
+                        <p>CT: 8</p>
+                    </div>
+                    <div class="subject" id="04034" data-code="04034" data-name="Geología General" data-requirements="24013,22023" data-level="3">
+                        <h3>Geología General</h3>
+                        <p>CT: 7</p>
+                    </div>
+                    <div class="subject" id="40035" data-code="40035" data-name="Inglés II" data-requirements="40025" data-level="3">
+                        <h3>Inglés II</h3>
+                        <p>CT: 2</p>
+                    </div>
+                    <div class="subject" id="04036" data-code="04036" data-name="Habilidades Comunicativas para Ingenieros" data-requirements="04014" data-level="3">
+                        <h3>Habilidades Comunicativas para Ingenieros</h3>
+                        <p>CT: 2</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="level" id="level-4">
+                <h2>4to Nivel</h2>
+                <div class="level-content">
+                    <div class="subject" id="03041" data-code="03041" data-name="Estadística Aplicada a la Ingeniería" data-requirements="23021" data-level="4">
+                        <h3>Estadística Aplicada a la Ingeniería</h3>
+                        <p>CT: 4</p>
+                    </div>
+                    <div class="subject" id="03042" data-code="03042" data-name="Hidráulica" data-requirements="23021,22023" data-level="4">
+                        <h3>Hidráulica</h3>
+                        <p>CT: 4</p>
+                    </div>
+                    <div class="subject" id="24043" data-code="24043" data-name="Química Aplicada" data-requirements="24013" data-level="4">
+                        <h3>Química Aplicada</h3>
+                        <p>CT: 5</p>
+                    </div>
+                    <div class="subject" id="04044" data-code="04044" data-name="Estática y Resistencia de Materiales" data-requirements="LEVEL2" data-level="4">
+                        <h3>Estática y Resistencia de Materiales</h3>
+                        <p>CT: 5</p>
+                    </div>
+                    <div class="subject" id="04045" data-code="04045" data-name="Mineralogía y Petrografía" data-requirements="04034,22033" data-level="4">
+                        <h3>Mineralogía y Petrografía</h3>
+                        <p>CT: 8</p>
+                    </div>
+                    <div class="subject" id="40046" data-code="40046" data-name="Inglés III" data-requirements="40035" data-level="4">
+                        <h3>Inglés III</h3>
+                        <p>CT: 4</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="level" id="level-5">
+                <h2>5to Nivel</h2>
+                <div class="level-content">
+                    <div class="subject" id="05051" data-code="05051" data-name="Contabilidad General y de Costos" data-requirements="LEVEL4" data-level="5">
+                        <h3>Contabilidad General y de Costos</h3>
+                        <p>CT: 3</p>
+                    </div>
+                    <div class="subject" id="03052" data-code="03052" data-name="Circuitos Eléctricos" data-requirements="22033" data-level="5">
+                        <h3>Circuitos Eléctricos</h3>
+                        <p>CT: 4</p>
+                    </div>
+                    <div class="subject" id="04053" data-code="04053" data-name="Procesamiento de Minerales I" data-requirements="24043,03041" data-level="5">
+                        <h3>Procesamiento de Minerales I</h3>
+                        <p>CT: 6</p>
+                    </div>
+                    <div class="subject" id="04054" data-code="04054" data-name="Topografía I" data-requirements="03032" data-level="5">
+                        <h3>Topografía I</h3>
+                        <p>CT: 7</p>
+                    </div>
+                    <div class="subject" id="04055" data-code="04055" data-name="Geología Estructural y Económica" data-requirements="04045" data-level="5">
+                        <h3>Geología Estructural y Económica</h3>
+                        <p>CT: 5</p>
+                    </div>
+                    <div class="subject" id="04056" data-code="04056" data-name="Perforación y Voladura" data-requirements="22033,04034" data-level="5">
+                        <h3>Perforación y Voladura</h3>
+                        <p>CT: 5</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="level" id="level-6">
+                <h2>6to Nivel</h2>
+                <div class="level-content">
+                    <div class="subject" id="05061" data-code="05061" data-name="Administración de Empresas en Minería" data-requirements="05051" data-level="6">
+                        <h3>Administración de Empresas en Minería</h3>
+                        <p>CT: 3</p>
+                    </div>
+                    <div class="subject" id="04062" data-code="04062" data-name="Protección Ambiental" data-requirements="LEVEL4" data-level="6">
+                        <h3>Protección Ambiental</h3>
+                        <p>CT: 3</p>
+                    </div>
+                    <div class="subject" id="04063" data-code="04063" data-name="Procesamiento de Minerales II" data-requirements="04053" data-level="6">
+                        <h3>Procesamiento de Minerales II</h3>
+                        <p>CT: 7</p>
+                    </div>
+                    <div class="subject" id="04064" data-code="04064" data-name="Topografía II" data-requirements="04054" data-level="6">
+                        <h3>Topografía II</h3>
+                        <p>CT: 7</p>
+                    </div>
+                    <div class="subject" id="04065" data-code="04065" data-name="Carguío y Transporte en Minería" data-requirements="04056" data-level="6">
+                        <h3>Carguío y Transporte en Minería</h3>
+                        <p>CT: 6</p>
+                    </div>
+                    <div class="subject" id="04066" data-code="04066" data-name="Ética y Liderazgo para Ingenieros" data-requirements="LEVEL5" data-level="6">
+                        <h3>Ética y Liderazgo para Ingenieros</h3>
+                        <p>CT: 4</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="level" id="level-7">
+                <h2>7mo Nivel</h2>
+                <div class="level-content">
+                    <div class="subject" id="04071" data-code="04071" data-name="Proyecto Minero-Metalúrgico" data-requirements="LEVEL6" data-level="7">
+                        <h3>Proyecto Minero-Metalúrgico</h3>
+                        <p>CT: 5</p>
+                    </div>
+                    <div class="subject" id="04072" data-code="04072" data-name="Servicios Mineros" data-requirements="LEVEL5" data-level="7">
+                        <h3>Servicios Mineros</h3>
+                        <p>CT: 6</p>
+                    </div>
+                    <div class="subject" id="04073" data-code="04073" data-name="Hidrometalurgia" data-requirements="04053" data-level="7">
+                        <h3>Hidrometalurgia</h3>
+                        <p>CT: 6</p>
+                    </div>
+                    <div class="subject" id="04074" data-code="04074" data-name="Normativas Mineras" data-requirements="04064" data-level="7">
+                        <h3>Normativas Mineras</h3>
+                        <p>CT: 3</p>
+                    </div>
+                    <div class="subject" id="04075" data-code="04075" data-name="Economía Minera Operacional" data-requirements="04065" data-level="7">
+                        <h3>Economía Minera Operacional</h3>
+                        <p>CT: 4</p>
+                    </div>
+                    <div class="subject" id="04076" data-code="04076" data-name="Métodos de Explotación" data-requirements="04055,04065" data-level="7">
+                        <h3>Métodos de Explotación</h3>
+                        <p>CT: 6</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="level" id="level-8">
+                <h2>8vo Nivel</h2>
+                <div class="level-content">
+                    <div class="subject" id="04081" data-code="04081" data-name="Trabajo de Título" data-requirements="04071" data-level="8">
+                        <h3>Trabajo de Título</h3>
+                        <p>CT: 10</p>
+                    </div>
+                    <div class="subject" id="04082" data-code="04082" data-name="Electivo Profesional" data-requirements="LEVEL7" data-level="8">
+                        <h3>Electivo Profesional</h3>
+                        <p>CT: 4</p>
+                    </div>
+                    <div class="subject" id="04083" data-code="04083" data-name="Administración de Riesgos" data-requirements="LEVEL6" data-level="8">
+                        <h3>Administración de Riesgos</h3>
+                        <p>CT: 5</p>
+                    </div>
+                    <div class="subject" id="04084" data-code="04084" data-name="Valorización de Yacimientos" data-requirements="04075,04076" data-level="8">
+                        <h3>Valorización de Yacimientos</h3>
+                        <p>CT: 6</p>
+                    </div>
+                    <div class="subject" id="04085" data-code="04085" data-name="Planificación y Control de Minas Corto Plazo" data-requirements="LEVEL7" data-level="8">
+                        <h3>Planificación y Control de Minas Corto Plazo</h3>
+                        <p>CT: 5</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
